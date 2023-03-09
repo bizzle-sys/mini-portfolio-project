@@ -10,13 +10,13 @@ export const Header = () => {
             </div>
 
             <div>
-              <h1 class="line">Web Developer</h1>
+              <h1 class="line"> {"{"}Web Developer{"}"} </h1>
             </div>
           </div>
 
           <div class="right">
             <input type="checkbox" id="check" />
-            <label for="check" class="menu-icon"
+            <label htmlFor="check" class="menu-icon"
             ><i class="fa-solid fa-bars"></i
             ></label>
             <ul class="navigation flex">
