@@ -4,11 +4,11 @@ export const Footer = () => {
   return (
     <>
     <footer>
-          <div class="footer-container flex">
-            <div class="footer-top flex">
-              <div class="flex">
+          <div className="footer-container flex">
+            <div className="footer-top flex">
+              <div className="flex">
                 <h3>Links</h3>
-                <ul class="flex">
+                <ul className="flex">
                   <li>Home</li>
                   <li>Skills</li>
                   <li>Projects</li>
@@ -17,9 +17,9 @@ export const Footer = () => {
                 </ul>
               </div>
 
-              <div class="flex">
+              <div className="flex">
                 <h3>External Links</h3>
-                <ul class="flex">
+                <ul className="flex">
                   <li>LinkedIn</li>
                   <li>GitHub</li>
                   <li>YouTube</li>
@@ -27,16 +27,16 @@ export const Footer = () => {
               </div>
             </div>
 
-            <div class="footer-bottom flex">
+            <div className="footer-bottom flex">
               <p>@2022 | All rights reserved.</p>
             </div>
           </div>
         </footer>
 
         {/* <!-- Footer End --> */}
-        <div class="scroll-to-top">
-          <a href="#" class="scroll-btn">
-            <i class="fa-solid fa-chevron-up"></i>
+        <div className="scroll-to-top">
+          <a href="#" className="scroll-btn">
+            <i className="fa-solid fa-chevron-up"></i>
           </a>
         </div>
         </>

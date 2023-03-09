@@ -6,31 +6,31 @@ export const Hero = () => {
   return (
 
     <>
-    <section class="section1 grid">
-          <div class="left flex">
+    <section className="section1 grid">
+          <div className="left flex">
             <img src={user} alt="profile pic" />
           </div>
 
-          <div class="right flex">
-            <div class="flex">
-              <h2 class="name">Pariwesh</h2>
-              <p class="tag">Web Developer</p>
+          <div className="right flex">
+            <div className="flex">
+              <h2 className="name">Pariwesh</h2>
+              <p className="tag">Web Developer</p>
             </div>
 
             <button>
               <a href= {resume}download={true}
-              >Download CV <span><i class="fa-solid fa-download"></i></span
+              >Download CV <span><i className="fa-solid fa-download"></i></span
               ></a>
             </button>
           </div>
         </section>
 
-        <section class="section2">
-          <div class="info-container flex">
-            <div class="info-lists flex">
-              <div class="info-content flex">
-                <div class="icon-container flex">
-                  <i class="fa-solid fa-award"></i>
+        <section className="section2">
+          <div className="info-container flex">
+            <div className="info-lists flex">
+              <div className="info-content flex">
+                <div className="icon-container flex">
+                  <i className="fa-solid fa-award"></i>
                 </div>
 
                 <span>
@@ -39,11 +39,11 @@ export const Hero = () => {
                 </span>
               </div>
 
-              <div class="info-divider"></div>
+              <div className="info-divider"></div>
 
-              <div class="info-content flex">
-                <div class="icon-container flex">
-                  <i class="fa-solid fa-award"></i>
+              <div className="info-content flex">
+                <div className="icon-container flex">
+                  <i className="fa-solid fa-award"></i>
                 </div>
 
                 <span>
@@ -52,11 +52,11 @@ export const Hero = () => {
                 </span>
               </div>
 
-              <div class="info-divider"></div>
+              <div className="info-divider"></div>
 
-              <div class="info-content flex">
-                <div class="icon-container flex">
-                  <i class="fa-solid fa-award"></i>
+              <div className="info-content flex">
+                <div className="icon-container flex">
+                  <i className="fa-solid fa-award"></i>
                 </div>
 
                 <span>
