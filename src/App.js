@@ -7,6 +7,7 @@ import { Projects } from './components/Projects';
 import { About } from './components/About';
 import { GetInTouch } from './components/GetInTouch';
 import { Footer } from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
 
 
 
@@ -21,37 +22,24 @@ function App() {
         ><i className="fa-solid fa-circle-half-stroke dark-mode-toggle"></i
         ></label>
 
-        {/* <!-- Header --> */}
         <Header />
 
-        {/* <!-- Header end --> */}
+        <Routes>
+          <Route path='/' element={<Hero />} />
+          <Route path='skills' element={<Skills />} />
+          <Route path='projects' element={<Projects />} />
+          <Route path='about' element={<About />} />
+          <Route path='contact' element={<GetInTouch />} />
+          <Route path='*' element={<h1>404 Page Not Found</h1>} />
 
-        {/* <!-- Hero section --> */}
-        <Hero />
-        {/* <!-- Hero section end --> */}
+        </Routes>
 
-        {/* <!-- Banner Section --> */}
 
-        {/* <!-- Banner Section end -->
 
-        <!-- Skills section --> */}
-        <Skills />
-        {/* <!-- Skills Section end -->
 
-        <!-- Projects Section --> */}
 
-        <Projects />
-        {/* <!-- Projects Section End --> */}
 
-        {/* <!-- About Section --> */}
-        <About />
-        {/* <!-- About Section End--> */}
 
-        {/* <!-- Get in Touch Section --> */}
-        <GetInTouch />
-        {/* <!-- Get in Touch Section End -->
-
-        <!-- Footer --> */}
         <Footer />
       </div>
 
