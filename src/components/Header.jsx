@@ -10,7 +10,7 @@ export const Header = () => {
             </div>
 
             <div>
-              <h1 class="line"> {"{"}Web Developer{"}"} </h1>
+              <h1 class="line"> {"{"}Web Developer{"!}"} </h1>
             </div>
           </div>
 
