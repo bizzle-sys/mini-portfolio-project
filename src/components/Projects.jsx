@@ -1,8 +1,11 @@
 import React from 'react'
 import projectimage from '../assets/imgs/project1.png'
+import { Layout } from './Layout'
 
 export const Projects = () => {
   return (
+
+    <Layout>
     <section className="section4 flex" id="projects">
     <h1 className="title">My Recent Work</h1>
 
@@ -39,5 +42,6 @@ export const Projects = () => {
       </div>
     </div>
   </section>
+  </Layout>
   )
 }
